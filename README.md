@@ -1,4 +1,4 @@
-# QuantumQuasar Code Nexus 🚀
+# Cipherpol 🚀
 
 Welcome to the Cipherpol, where innovation meets cosmic coding adventures! 🌌✨
 
