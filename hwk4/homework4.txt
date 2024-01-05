@@ -1,1 +1,10 @@
-
+Step a:
+C:\Users\nesma> git config --global user.name "Nesma Alshaibani"
+C:\Users\nesma> git config --global user.email "nesma.alshaibani2009@gmail.com"
+C:\Users\nesma> git config --global user.favorite.editor
+C:\Users\nesma> git config --global user.name
+Nesma Alshaibani
+C:\Users\nesma> git config --global user.email
+nesma.alshaibani2009@gmail.com
+C:\Users\nesma> git config --global user.favorite.editor
+NetBeans
