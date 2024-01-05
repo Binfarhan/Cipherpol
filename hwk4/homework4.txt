@@ -6,13 +6,15 @@ C:\Users\nesma> git config --global --list
 user.name=Nesma Alshaibani
 user.email=nesma.alshaibani2009@gmail.com
 user.favorite.editor=NetBeans
+
 C:\Users\Ammar>git config --global user.name "Ammar Farhan"
 C:\Users\Ammar>git config --global user.email "al-oqam@hotmail.com"
-C:\Users\Ammar>git config --global user.favorite.editor "netbeans"
+C:\Users\Ammar>git config --global favorite.editor "NetBeans"
 C:\Users\Ammar>git config --global --list
 user.name=Ammar Farhan
 user.email=al-oqam@hotmail.com
 favorite.editor=NetBeans
+
 Step b:
 
 C:\Users\nesma>  cd cipherpol
