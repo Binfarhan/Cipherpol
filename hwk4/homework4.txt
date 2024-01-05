@@ -17,3 +17,31 @@ al-oqam@hotmail.com
 C:\Users\Ammar>git config --global user.favorite.editor "netbeans"
 C:\Users\Ammar>git config user.favorite.editor
 netbeans
+Step b:
+
+C:\Users\nesma>  cd cipherpol
+
+C:\Users\nesma\Cipherpol>dir
+ Volume in drive C is OS
+ Volume Serial Number is EAAE-8374
+
+ Directory of C:\Users\nesma\Cipherpol
+
+01/05/2024  08:09 PM    <DIR>          .
+01/05/2024  08:09 PM    <DIR>          ..
+01/05/2024  08:09 PM    <DIR>          hwk4
+               0 File(s)              0 bytes
+               3 Dir(s)  85,633,589,248 bytes free
+
+C:\Users\nesma\Cipherpol>dir /A
+ Volume in drive C is OS
+ Volume Serial Number is EAAE-8374
+
+ Directory of C:\Users\nesma\Cipherpol
+
+01/05/2024  08:09 PM    <DIR>          .
+01/05/2024  08:09 PM    <DIR>          ..
+01/05/2024  08:09 PM    <DIR>          .git
+01/05/2024  08:09 PM    <DIR>          hwk4
+               0 File(s)              0 bytes
+               4 Dir(s)  85,633,527,808 bytes free
