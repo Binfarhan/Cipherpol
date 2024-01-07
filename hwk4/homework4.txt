@@ -77,11 +77,16 @@ Step d
 .DS_Store
 Thumbs.db
 
-Step e and f 
+Steps e and f 
 
 1.The commit we have made on the feature-1 branch is “satisfying requirement one”
 2.The files are listed in our hmk1 directory on the feature-1 branch are ( NumberRangePrinter.java, gitignore and homework4.txt )
 3.The files are listed in our hmk1 directory on the main branch are ( gitignore and homework4.txt )
+
+Steps g, h, i, and j
+
+The commit we have made on the feature-2 branch is “satisfying requirement change two”
+
 
 
 
