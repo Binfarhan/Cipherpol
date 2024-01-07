@@ -54,7 +54,34 @@ C:\Users\nesma\Cipherpol>dir /A
                0 File(s)              0 bytes
                4 Dir(s)  85,633,527,808 bytes free
 
-step c
+Step c
 
 [Department of Software Engineering - Işık University](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
+
+Step d 
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Build directories
+/target/
+/build/
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+Step e and f 
+
+1.The commit we have made on the feature-1 branch is “satisfying requirement one”
+2.The files are listed in our hmk1 directory on the feature-1 branch are ( NumberRangePrinter.java, gitignore and homework4.txt )
+3.The files are listed in our hmk1 directory on the main branch are ( gitignore and homework4.txt )
+
+
 
