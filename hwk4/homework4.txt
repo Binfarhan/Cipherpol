@@ -54,11 +54,11 @@ C:\Users\nesma\Cipherpol>dir /A
                0 File(s)              0 bytes
                4 Dir(s)  85,633,527,808 bytes free
 
-Step c
+Step c:
 
 [Department of Software Engineering - Işık University](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
 
-Step d 
+Step d:
 # Compiled class files
 *.class
 
@@ -77,16 +77,39 @@ Step d
 .DS_Store
 Thumbs.db
 
-Steps e and f 
+Steps e and f:
+
+C:\Users\Ammar> git checkout -b feature-1
+C:\Users\Ammar> cd hmk4
+C:\Users\Ammar\hmk4> git add .
+C:\Users\Ammar\hmk4> git commit -m "Satisfying requirement one"
 
 1.The commit we have made on the feature-1 branch is “satisfying requirement one”
 2.The files are listed in our hmk1 directory on the feature-1 branch are ( NumberRangePrinter.java, gitignore and homework4.txt )
 3.The files are listed in our hmk1 directory on the main branch are ( gitignore and homework4.txt )
 
-Steps g, h, i, and j
+Steps g, h, i, and j:
+
+C:\Users\Ammar\hmk4> git checkout main
+C:\Users\Ammar\hmk4> git merge feature-1
+C:\Users\Ammar\hmk4> git checkout -b feature-2
+C:\Users\Ammar\hmk4> git checkout -b feature-3
+C:\Users\Ammar\hmk4> git checkout feature-2
+C:\Users\Ammar\hmk4> git add .
+C:\Users\Ammar\hmk4> git commit -m "Satisfying requirement change two"
 
 The commit we have made on the feature-2 branch is “satisfying requirement change two”
 
+Steps k, l, and m:
 
+C:\Users\Ammar\hmk4> git checkout -b feature-3
+C:\Users\Ammar\hmk4> git add .
+C:\Users\Ammar\hmk4> git commit -m "Satisfying requirement change three"
+C:\Users\Ammar\hmk4> git checkout main
+C:\Users\Ammar\hmk4> git merge feature-2
 
-
+Steps n, o and p:
+C:\Users\Ammar\hmk4> git push origin master feature-1 feature-2 feature-3
+C:\Users\Ammar\hmk4> git add homework4.txt
+C:\Users\Ammar\hmk4> git commit -m "Add answers to homework4.txt"
+C:\Users\Ammar\hmk4> git push origin main
