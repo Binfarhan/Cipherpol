@@ -14,17 +14,19 @@ public class NumberRangePrinter {
         scanner.close();
 
         if (firstNumber < secondNumber) {
-            printNumbersInRange(firstNumber, secondNumber);
+            printEvenNumbersInRange(firstNumber, secondNumber);
         } else {
             System.out.println("Invalid input: The second number should be greater than the first number.");
         }
     }
 
-    private static void printNumbersInRange(int start, int end) {
-        System.out.println("Numbers between " + start + " and " + end + " (exclusive):");
+    private static void printEvenNumbersInRange(int start, int end) {
+        System.out.println("Even numbers between " + start + " and " + end + " (exclusive):");
 
         for (int i = start + 1; i < end; i++) {
-            System.out.println(i);
+            if (i % 2 == 0) {
+                System.out.println(i);
+            }
         }
     }
 }
