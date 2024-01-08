@@ -107,6 +107,7 @@ C:\Users\Ammar\hmk4> git add .
 C:\Users\Ammar\hmk4> git commit -m "Satisfying requirement change three"
 C:\Users\Ammar\hmk4> git checkout main
 C:\Users\Ammar\hmk4> git merge feature-2
+C:\Users\Ammar\hmk4> git merge feature-3
 
 Steps n, o and p:
 C:\Users\Ammar\hmk4> git push origin master feature-1 feature-2 feature-3
