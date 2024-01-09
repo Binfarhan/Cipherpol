@@ -80,9 +80,13 @@ Thumbs.db
 Steps e and f:
 
 C:\Users\Ammar> git checkout -b feature-1
+Switched to a new branch 'feature-1'
 C:\Users\Ammar> cd hmk4
-C:\Users\Ammar\hmk4> git add .
-C:\Users\Ammar\hmk4> git commit -m "Satisfying requirement one"
+C:\Users\Ammar\hmk4> git add NumberRangePrinter.java
+C:\Users\Ammar\Cipherpol\hwk4> git commit -m "satisfying requirement change one"
+[feature-1 d74aba9] satisfying requirement change one
+ 1 file changed, 32 insertions(+)
+ create mode 100644 hwk4/NumberRangePrinter.java
 
 1.The commit we have made on the feature-1 branch is “satisfying requirement one”
 2.The files are listed in our hmk4 directory on the feature-1 branch are ( NumberRangePrinter.java, gitignore and homework4.txt )
@@ -90,24 +94,88 @@ C:\Users\Ammar\hmk4> git commit -m "Satisfying requirement one"
 
 Steps g, h, i, and j:
 
-C:\Users\Ammar\hmk4> git checkout main
-C:\Users\Ammar\hmk4> git merge feature-1
-C:\Users\Ammar\hmk4> git checkout -b feature-2
-C:\Users\Ammar\hmk4> git checkout -b feature-3
-C:\Users\Ammar\hmk4> git checkout feature-2
+C:\Users\Ammar\Cipherpol\hwk4> git checkout main
+Switched to branch 'main'
+M       hwk4/homework4.txt
+Your branch is up to date with 'origin/main'.
+
+C:\Users\Ammar\Cipherpol\hwk4> git merge feature-1
+Updating f9801c4..d74aba9
+Fast-forward
+ hwk4/NumberRangePrinter.java | 32 ++++++++++++++++++++++++++++++++
+ 1 file changed, 32 insertions(+)
+C:\Users\Ammar\Cipherpol\hwk4> git checkout -b feature-2
+Switched to a new branch 'feature-2'
+
+C:\Users\Ammar\Cipherpol\hwk4> git checkout -b feature-3
+Switched to a new branch 'feature-3'
+
+C:\Users\Ammar\Cipherpol\hwk4> git checkout feature-2
+Switched to branch 'feature-2'
+M       hwk4/homework4.txt
 C:\Users\Ammar\hmk4> git add .
-C:\Users\Ammar\hmk4> git commit -m "Satisfying requirement change two"
+C:\Users\Ammar\Cipherpol\hwk4> git commit -m "Satisfying requirement change two"
+[feature-2 e8578ea] Satisfying requirement change two
+ 3 files changed, 130 insertions(+), 14 deletions(-)
+ create mode 100644 hwk4/git
+ create mode 100644 hwk4/gitignore
 
 The commit we have made on the feature-2 branch is “satisfying requirement change two”
 
 Steps k, l, and m:
 
 C:\Users\Ammar\hmk4> git checkout -b feature-3
+Switched to a new branch 'feature-3'
 C:\Users\Ammar\hmk4> git add .
 C:\Users\Ammar\hmk4> git commit -m "Satisfying requirement change three"
+[feature-3 e8578ea] Satisfying requirement change three
+ 3 files changed, 130 insertions(+), 14 deletions(-)
+ create mode 100644 hwk4/git
+ create mode 100644 hwk4/gitignore
 C:\Users\Ammar\hmk4> git checkout main
-C:\Users\Ammar\hmk4> git merge feature-2
+C:\Users\Ammar\Cipherpol\hwk4>  git merge feature-2
+Updating d74aba9..e8578ea
+Fast-forward
+ hwk4/git           |   0
+ hwk4/gitignore     |  17 +++++++
+ hwk4/homework4.txt | 127 +++++++++++++++++++++++++++++++++++++++++++++++------
+ 3 files changed, 130 insertions(+), 14 deletions(-)
+ create mode 100644 hwk4/git
+ create mode 100644 hwk4/gitignore
 C:\Users\Ammar\hmk4> git merge feature-3
+C:\Users\Ammar\Cipherpol\hwk4> git diff main feature-1
+diff --git a/hwk4/git b/hwk4/git
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/hwk4/gitignore b/hwk4/gitignore
+deleted file mode 100644
+index 09764bf..0000000
+--- a/hwk4/gitignore
++++ /dev/null
+@@ -1,17 +0,0 @@
+-# Compiled class files
+-*.class
+-
+-# Log files
+-*.log
+-
+-# Build directories
+-/target/
+-/build/
+-
+-# IDE-specific files
+-.idea/
+-.vscode/
+-
+-# Operating system files
+-.DS_Store
+-Thumbs.db
+diff --git a/hwk4/homework4.txt b/hwk4/homework4.txt
+index 8e260f5..0c5ce06 100644
+--- a/hwk4/homework4.txt
++++ b/hwk4/homework4.txt
+@@ -1,118 +1,19 @@
+
 
 Steps n, o and p:
 C:\Users\Ammar\hmk4> git push origin master feature-1 feature-2 feature-3
